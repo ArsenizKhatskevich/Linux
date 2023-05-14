@@ -1,0 +1,9 @@
+localhost:~# mkdir /home/user
+localhost:~# mkdir /home/user/start
+localhost:~# touch  /home/user/start/1.txt
+localhost:~# echo "Start" >> /home/user/start/1.txt
+localhost:~# echo "$(date)" >> /home/user/start/1.txt
+localhost:~# mkdir /opt/task
+localhost:~# touch /opt/task/start.txt
+localhost:~# cp  /home/user/start/1.txt /opt/task/start.txt
+localhost:~# ls -a/ | tail -4 >> /opt/task/start.txt
